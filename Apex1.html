@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meet the Web Developer!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f1f5f8, #e2eafc);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .card {
+      background: white;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+      width: 350px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card img {
+      border-radius: 50%;
+      width: 120px;
+      margin-top: 10px;
+    }
+
+    h1 {
+      color: #333;
+      margin: 10px 0;
+    }
+
+    p {
+      color: #555;
+      font-size: 16px;
+      margin: 10px 0 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      background: #0077cc;
+      color: white;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #005fa3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="https://st.depositphotos.com/1064024/3598/i/950/depositphotos_35987237-stock-photo-old-vintage-books.jpg" alt="Developer Icon">
+    <h1>Vaishnavi Devi</h1>
+    <p>Passionate Web Developer 🌐<br/>Loves HTML, CSS & JavaScript</p>
+    <button onclick="greet()">Say Hello!</button>
+  </div>
+
+  <script>
+    function greet() {
+      alert("Hello! Welcome to my creative webpage 😊");
+    }
+  </script>
+
+</body>
+</html>
+
